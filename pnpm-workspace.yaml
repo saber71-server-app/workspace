@@ -1,5 +1,5 @@
 packages:
-  - common
+  - utils
   - gateway-server
   - hello-server
   - video-manage
