@@ -7,6 +7,8 @@
     <project name="vite-external-deps-plugin" path="$PROJECT_DIR$/../vite-external-deps-plugin">
       <vcs id="Git" remoteUrl="https://github.com/saber71/vite-external-deps-plugin.git" />
     </project>
+    <project name="log-server" path="$PROJECT_DIR$/log-server" />
+    <project name="gateway-server" path="$PROJECT_DIR$/gateway-server" />
     <option name="workspace" value="true" />
   </component>
 </project>

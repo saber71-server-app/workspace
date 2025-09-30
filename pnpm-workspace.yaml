@@ -1,4 +1,5 @@
 packages:
+  - log-server
   - utils
   - gateway-server
   - hello-server
@@ -19,12 +20,14 @@ catalog:
   '@nestjs/platform-socket.io': ^11.1.6
   '@nestjs/typeorm': ^11.0.0
   '@nestjs/websockets': ^11.1.6
+  '@hono/node-server': ^1.19.5
   'axios': ^1.12.2
   'class-transformer': ^0.5.1
   'class-validator': ^0.14.2
   'cross-env': ^10.0.0
   'dotenv': ^17.2.2
   'humps': ^2.0.1
+  'hono': ^4.9.9
   'ioredis': ^5.7.0
   'ip': ^2.0.1
   'js-yaml': ^4.1.0
