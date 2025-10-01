@@ -1,0 +1,15 @@
+version: '3.8'
+services:
+  postgres:
+    image: nacos-server
+    container_name: nacos
+    environment:
+      MODE: standalone
+      NACOS_USER: nacos
+      NACOS_AUTH_TOKEN: SW1wZXJhdG9yIENhZXNhciBkaXZpIGZpbGl1cyBBdWd1c3R1cw==
+      NACOS_AUTH_IDENTITY_KEY: ok
+      NACOS_AUTH_IDENTITY_VALUE: ok
+    ports:
+      - "8848:8848"
+      - "9848:9848"
+    restart: always

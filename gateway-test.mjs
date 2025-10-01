@@ -8,7 +8,7 @@ socket.on("connect", () => {
   });
   socket.emit(
     "online",
-    { name: "t1", ip: "localhost", port: 300, weight: 1 },
+    { name: "test", ip: "localhost", port: 300, weight: 1, id: "id" },
     console.log,
   );
 });

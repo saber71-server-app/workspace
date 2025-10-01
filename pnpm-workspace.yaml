@@ -21,6 +21,7 @@ catalog:
   '@nestjs/typeorm': ^11.0.0
   '@nestjs/websockets': ^11.1.6
   '@hono/node-server': ^1.19.5
+  '@hono/zod-validator': ^0.7.3
   'axios': ^1.12.2
   'class-transformer': ^0.5.1
   'class-validator': ^0.14.2
@@ -41,3 +42,4 @@ catalog:
   'ssh2': ^1.17.0
   'typeorm': ^0.3.26
   'winston': ^3.18.1
+  'zod': ^3.24.3

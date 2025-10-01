@@ -1,0 +1,11 @@
+version: '3.8'
+services:
+  nginx:
+    image: nginx
+    container_name: nginx-static
+    ports:
+      - "800:80"
+    volumes:
+      - ./conf.d:/etc/nginx/conf.d
+      - /home/saber71/xxxx:/usr/share/nginx/static1
+    restart: unless-stopped
